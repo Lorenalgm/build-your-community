@@ -6,27 +6,71 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <title>Build Your Community</title>
 
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    
+    body{
+      background-image: url('images/bg-desktop.svg');
+      background-color: rgb(103, 75, 175);
+    }
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      padding: 34px;
+    }
+
+    .computer {
+      width: 50%;
+      height: 50%;
+    }
+
+    .content{
+      margin-left: 20px;
+    }
+
+    h1{
+      font-family: 'Poppins', sans-serif;
+      color: #ffff;
+    }
+
+    p{
+      font-family: 'Open Sans', sans-serif;
+      color: #ffff;
+    }
+
+    button{
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(103, 75, 175);
+      background-color: #ffff;
+    }
+
+    
   </style>
 </head>
 <body>
+  <img class="logo" src="images/logo.svg">
+  <div class="container">
+    <img class="computer" src="images/illustration-mockups.svg">
+    <div class="content">
+      <h1>Build The Community<br>
+        Your Fans Will Love</h1>
 
-  Build The Community Your Fans Will Love
+      <p>
+      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion. 
+      </p>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+      <button>Register</button>
+    </div>
+  </div>
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <div>F</div>
+    <div>T</div>
+    <div>I</div>
   </footer>
 </body>
 </html>
