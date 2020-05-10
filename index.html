@@ -15,6 +15,8 @@
     body{
       background-image: url('images/bg-desktop.svg');
       background-color: rgb(103, 75, 175);
+      display: flex;
+      flex-direction: column;
     }
 
     .logo{
@@ -90,10 +92,21 @@
     i{
       color: #ffff;
     }
+
+    a{
+      color: #ffff;
+    }
+
+    .me{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     
   </style>
 </head>
 <body>
+  <div>
   <img class="logo" src="images/logo.svg">
   <div class="container">
     <img class="computer" src="images/illustration-mockups.svg">
@@ -114,5 +127,7 @@
     <div class="icons"><i class="fab fa-twitter"></i></div>
     <div class="icons"><i class="fab fa-instagram"></i></div>
   </footer>
+  </div>
+  <p class="me"><a href="https://github.com/Lorenalgm">Lorena GM :)</a></p>
 </body>
 </html>
